@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "持仓手记",
+    "slug": "grid-journal-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "gridjournal",
+    "android": {
+      "package": "com.qinghe.gridjournal",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "name": "持仓手记"
+    },
+    "plugins": [
+      "expo-document-picker",
+      "expo-sharing"
+    ]
+  }
+}
